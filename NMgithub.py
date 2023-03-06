@@ -5,3 +5,4 @@ remote = repo.create_remote(remote_name, url=another_url)
 remote.push(refspec='{}:{}'.format(local_branch, remote_branch))
 
 hello
+hello ack
